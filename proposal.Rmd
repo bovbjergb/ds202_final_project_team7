@@ -1,0 +1,39 @@
+---
+title: "Proposal"
+author: "Stephanie Femrite"
+date: "4/5/2020"
+output: html_document
+---
+
+
+Project Coordinator: Brit Bobvjerg
+Team: Stephanie Femrite, Yanfan Cai
+
+Link:https://www.google.com/url?q=https://www.icpsr.umich.edu/icpsrweb/NACJD/studies/35509&sa=D&source=hangouts&ust=1586206341381000&usg=AFQjCNGrJSrMeE7DqQMoev-3WJXX7npHNQ
+
+Overview: This dataset looks at the demographics of people who use drugs and alcohol legally and illegally and the types of drugs they use.
+
+exploratory analysis: 
+We wrote a primilimanary list of questions:
+
+Does currently being or having been in the military predict drug use? What drug are they most likely to use?
+Does the age of first pregnancy correlate with drug use?
+Does is gender or race an indicator of drug use? What types of drugs are most common?
+Does the type of area lived indicate drug usage?
+Do people who live in states who have medical marijuana programs more or less likely to use marijuana?
+Do they use it more often?
+Does the abuse of drugs or alcohol effect the number of times they’ve been treated in the ER? Does
+receiving treatment mitigate this?
+Is the number of out-patient visits to the doctor affected by drugs or alcohol?
+Does pregnancy predict a lack of drug use?
+Does the body mass index indicate the type of drug being used?
+Is there a difference between users and non-users?
+Do the number of religious services attended affect drug usage?
+Do the students who don’t do drugs get higher grades?
+Does drug use correlate with distress?
+Do more drug users receive welfare?
+Is income an indicator of drug usage? Is it in indicator of the type of drug?
+Are drug users more likely to be covered by Medicare, Medicaid, Tri-Care or private insurance?
+Does poverty level indicate drug usage? What drugs are most common?
+What types of insurance are most common for income bracket? Is drug usage correlated?
+Does marital type indicated drug usage?
