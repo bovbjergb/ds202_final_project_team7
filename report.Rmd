@@ -1,0 +1,110 @@
+---
+title: "Drug Users"
+author: "Stephanie Femrite, Brit Bovbjerg, Yangfan Cai"
+date: "4/30/2020"
+output: html_document
+---
+
+#**Background:**
+ 
+ There are popular perceptions of drug users. Media generally portrays them as either wild, party teenagers and twenty-somethings who buy their drugs from dealers they meet in a loud club or as strung-out middle aged people in an alley who can not stop their shakes. We assumed that drug usage, in reality, does not look the way it is popularly portrayed in the media, so we looked for a data set that would tell us either way.
+ We found a dataset from the National Survey on Drug use and Health from 2013. This data was collected in all 50 states and Washinton D.C., using mult-stage probability sampling, from a civilian, non-institutionalized population of people aged 12 and older. The data was collected via survey that had a 83.93 % response rate and by interview that had a 71.96 % response rate.
+ 
+##Techniques to Handle the Data
+
+To handle the data, originally, we had to pre-clean it using SPSS to reduce the columns. The original data set is thousands of columns and it crashed our computers every time we tried to download it. We ended up with a dataset that had 237 columns and 55,160 rows.
+
+Then, because all the data was input numerically, we had to find a codebook to be able to interpret what the data was telling us.
+
+Finally, we had to clean the data by dropping rows that indicated no answers or damaged data. (There were very few NAs in our data set because the researchers coded those answers with numbers.)
+ 
+#**Research Questions:**
+
+  Once we started to look through the data set we picked, there were many questions that came to mind. Initially, we had a list of about twenty that we wanted to look at, but even that became overwhelming. We wanted to look at demographics of drug users in general, but we also had to narrow our focus down to just one drug, so we chose Heroin. We settled on nine questions that are a mix of both general demographics questions and questions specific to Heroin users:
+  1.How do the demographics of drug users compare to non drug users? Illegal drug users to legal drug users? Heroin users to non Heroin users?
+  2.How does employment of drug users compare to non drug users? Illegal drug users to legal drug users? Heroin users to non Heroin users?
+  3.How does the BMI of drug users compare to non drug users? Illegal drug users to legal drug users? Heroin users to non Heroin users?
+  4. What age did people first use Heroin?
+  5. What is the height and weight of Heroin users?
+  6. Is the number of times Heroin is used per month indicative of ER visits? Do users have insurance?
+  7.Is the number of times Heroin is used per month indicative of outpatient doctor appointments? Do users have insurance?
+  8. Does the age of first usage correlate with dependency on Heroin?
+  9. Will the users rely on drugs after their first drug use?
+  
+  
+#**Finding Answers**
+
+##**Demographics**
+
+### How do the demographics of drug users compare to non drug users? Illegal drug users to legal drug users? Heroin users to non Heroin users?
+
+It seems that most people answered yes to using cigarettes, alcohol, Marijuana, Cocaine or Heroin. Where they lived did not seem to make a difference. Men are slightly more prone to using drugs than women and only about half of younger people were using drugs.
+
+Then, we focused on people who use illegal drugs: Heroin, Marijuana and Cocaine versus people who don't use drugs. City environment again, did not seem to have an impact on who was using, except for men over the age of 65 in large cities are more likely to use drugs than men over the age of 65 in small cities or other non city environments. We also found that men, in general, were more likely to use drugs than women, and the most prone to using drugs were men between the ages of 26-34 range are the most likely demographic to be using drugs.
+
+When we specifically looked at Heroin use, we found that most people do not use Heroin. However, we found that men were the most likely users, specifically men in big cities between the ages of 26-34.
+
+###How does employment of drug users compare to non drug users? Illegal drug users to legal drug users? Heroin users to non Heroin users?
+
+There's always an idea that drug users are unemployed junkies who lay around collecting unemployment. We wanted to look at the employment statistics to see if that was true.
+
+When we looked at drug users compared to non-drug users, we found that most people who answered this survey were unemployed.However, the people, between both genders who were most likely to be employed were drug users. The most likely to be employed were men between the ages of 26-34.
+
+Among employment of people who use illegal drugs, we found that the employment rate went up. We still found that people who don't use illegal drugs are less likely to have jobs than people who do use illegal drugs.
+
+Among Heroin users, there really wasn't a pattern or enough data to draw a conclusion.
+
+###How does the BMI of drug users compare to non drug users? Illegal drug users to legal drug users? Heroin users to non Heroin users?
+
+There are lots of perceptions about how drug users look, so we wanted to look at their BMI and see if some of those perceptions are correct.
+
+Looking at the drug users versus the none drug users, there did not seem to be much difference in the BMIs.
+
+We found the same for users of illegal drugs.
+
+When we looked at Heroin users, there wasn't enough data to draw a firm conclusion, but it did look like Heroin users have a slightly lower BMI than general population.
+
+###What age did people first use Heroin?
+
+  We started asking questions that only looked at Heroin. We wanted to know what age people first used Heroin. Because of our findings previously, we were counting on most first time users to be in their late teens/early twenties.
+  
+Since We are specifically looking at Heroin use, we cleaned the data set to just have everyone who answered ‘yes’ to the question :” Have you ever tried Heroin?” We were interested to know what age people generally try Heroin for the first time. You can see that the data is skewed to the right, which, We expected. However, we were not expecting the peak of the curve to be around 18. We liked this bar chart partly because it really highlights how young the first age can be. If you look, to the left, you’ll see that there are about 8 people who said they tried Heroin at age 10 or younger.
+
+###What is the height and weight of Heroin users?
+
+Since we looked at the BMI of Heroin users and didn't find much of a result,We wanted to know if there were any interesting bodily trends in Heroin users. We also colored the graph by gender. Pink is male and blue is female. As you can see, there’s not really an interesting trend. It’s pretty much the same positive linear correlation you’d expect to see among any other demographic. There is one really tall guy who weighs less than 100 pounds, and one really short guy who weighs just short of 300 pounds, those might be incorrect data points, but there’s not really any way to know that.
+
+###Is the number of times Heroin is used per month indicative of ER visits? Do users have insurance?
+
+The next two slides have very sparse data points because, first, the number of people who said yes, they have tried Heroin, cut the dataset down from around 5500 rows to about 850 rows. Then, there were a lot of questions that these 850 people refused to answer or the data couldn’t be salvaged. We had to clean out answers that didn’t answer one or both of the survey questions. It left me with something like 20 or 30 answers for both of the next slides.
+
+So, We wanted to know if there was a correlation between how many times a person used Heroin per month and how many times they were treated in the ER. We also added color for the gender and We added shapes to indicate if they were covered by some type of insurance. You can see that most of the people who answered both questions were male and most people who answered were not covered by insurance. Most of the data is around the low end of usage and between 0 and 2 times they were treated in the emergency room. However, We don’t think there is enough data here to draw any overarching conclusions about Heroin usage and ER visits.
+
+###7.Is the number of times Heroin is used per month indicative of outpatient doctor appointments? Do users have insurance?
+
+We also wondered about Heroin usage and outpatient doctor visits. We used the same graphics for this slide as the last one. There were a few more answers to this question, and there’s a few more people who have insurance. But again, the most of the data shows Heroin usage per month to be between 0 and 10 times per month and doctor visits to be between 0 and 5 times in the past year. And again, We still don’t think there’s enough data here to draw any conclusions.
+
+###Does the age of first usage correlate with dependency on Heroin?
+
+We answered this question by making box plots of the age people first used Heroin by how many times per month they used it. We specifically looked at the users who began at age 18 and under. While the graph varied in range, the people who began use at age 10, used Heroin much fewer times per month than people who began at any other age. Users who began at 18 consistently used more times per month than any other age.
+
+###Will the users rely on drugs after their first drug use?
+
+To answer this question, we filtered the user's ages to be between 8-24 because that's where the most data was. As we looked at the data points, it looked like the younger a person started using Heroin, they became more likely to use it more times per month.
+
+##Conclusion
+
+We started out thinking that drug users are either wild children partying in night clubs or adults in back alleys with the shakes from their withdrawal. What we found out is drugs usage is not primarily a "city problem". Drug usage is generally the same no matter where someone lives. We also found out that drug users are more likely to be employed than non-drug users.
+
+When we looked specifically at Heroin users, we found out that they look pretty much like everyone else, though they may be slightly thinner than average. We found out that the majority of users don't use many times per month and don't tend to go to the ER or to outpatient doctor appointments. 
+
+As a broad conclusion, there isn't a specific look that drug users have and they can be functional memebers of society.
+
+##Sources:
+
+1) United States Department of Health and Human Services. Substance Abuse and Mental Health Services Administration. Center for Behavioral Health Statistics and Quality. National Survey on Drug Use and Health, 2013. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2015-11-23. https://doi.org/10.3886/ICPSR35509.v3
+
+2)United States Department of Health and Human Services. Substance Abuse and Mental Health Services Administration. Center for Behavioral Health Statistics and Quality. National Survey on Drug Use and Health, 2013. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2015-11-23. https://doi.org/10.3886/ICPSR35509.v3
+
+
+
